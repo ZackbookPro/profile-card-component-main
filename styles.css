@@ -1,7 +1,7 @@
 
 body {
   background-image: url(images/bg-pattern-top.svg);
-  background-color: rgb(11, 91, 94);
+  background-color: hsl(185, 75%, 39%);
   height: 100%;
   font-family: 'Kumbh Sans', sans-serif;
   font-size: 18px;
@@ -100,5 +100,11 @@ hr {
   }
   .body, html {
     overflow: hidden;
+  }
+}
+
+@media (min-width: 1000px) {
+  .card {
+    margin: 10% auto;
   }
 }
