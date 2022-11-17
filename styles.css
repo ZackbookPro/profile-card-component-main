@@ -1,0 +1,104 @@
+
+body {
+  background-image: url(images/bg-pattern-top.svg);
+  background-color: rgb(11, 91, 94);
+  height: 100%;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+}
+
+.card {
+  max-width: 320px;
+  height: 430px;
+  margin: 2rem auto;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 45px;
+  position: relative;
+  top: -60px;
+  left: -7px;
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+
+.top-half {
+  background-image: url(images/bg-pattern-card.svg);
+  background-color: blue;
+  width: 100%;
+  position: relative;
+  height: 40%;
+  border-radius: 20px 20px 0 0;
+  margin-bottom: 0px;
+}
+
+img {
+  border: 6px solid white;
+  border-radius: 100%;
+  position: relative;
+  top: -50px;
+  left: 33%;
+}
+
+.bottom-half h3 {
+  position: relative;
+  left: 83px;
+  margin-top: -30px;
+  
+}
+
+.age {
+  font-size: 18px;
+  position: relative;
+  top: -45px;
+  left: 213px;
+  color: darkgrey;
+  
+}
+
+.london {
+  color: darkgray;
+  position: relative;
+  top: -50px;
+  text-align: center;
+  font-size: smaller;
+}
+
+p {
+  font-size: smaller;
+  color: darkgray;
+  font-size: 12px;
+}
+
+h4 {
+  position: relative;
+  top: 15px;
+  margin-bottom: 0px;
+}
+
+hr {
+  border: 1px solid darkgrey;
+  position: relative;
+  top: -40px;
+  height: .02px;
+  opacity: 20%;
+}
+
+.attribution {
+  position: relative;
+  top: 10px;
+}
+
+@media (max-width: 550px) {
+  .card {
+    margin: 10% auto;
+  }
+  .body, html {
+    overflow: hidden;
+  }
+}
